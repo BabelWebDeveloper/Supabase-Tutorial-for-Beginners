@@ -26,8 +26,7 @@ const Update = () => {
 
     if (error) {
       setFormError('Please fill in all the fields correctly.')
-    }
-    if (data) {
+    } else {
       setFormError(null)
       navigate('/')
     }
