@@ -42,8 +42,7 @@ const Update = () => {
 
       if (error) {
         navigate('/', { replace: true })
-      }
-      if (data) {
+      } else {
         setTitle(data.title)
         setMethod(data.method)
         setRating(data.rating)

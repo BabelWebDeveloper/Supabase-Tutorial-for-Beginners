@@ -15,7 +15,6 @@ const SmoothieCard = ({ smoothie, onDelete }) => {
       console.log(data)
       onDelete(smoothie.id)
     }
-    console.log('delete');
   }
 
   return (
